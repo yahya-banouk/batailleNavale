@@ -1,0 +1,14 @@
+void AffichageMenu();
+void AfficheSecondM();
+int n=10;
+int hour=0,minute=0,sec=0,millsec=0;
+void JoueurVsOrdi();
+int **init_jeuG();
+int **init_OrdiG();
+void AfficherGrill(int **tab);
+void AfficherGrillFi(int **tab);
+void StartGame(int **tabOr,int *g);
+void timing();
+void StartGameO(int **tabG,int *p);
+void replace(int **tab,int c,int l);
+void JoueurVsJoueur();
